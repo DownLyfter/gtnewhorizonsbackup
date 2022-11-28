@@ -1,8 +1,8 @@
-[16:04:37] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[16:04:39] [Server thread/INFO]: Loading properties
-[16:04:39] [Server thread/INFO]: Default game type: SURVIVAL
-[16:04:39] [Server thread/INFO]: Generating keypair
-[16:04:39] [Server thread/INFO]: Starting Minecraft server on 10.0.0.226:25565
-[16:04:39] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[16:04:39] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
-[16:04:39] [Server thread/WARN]: Perhaps a server is already running on that port?
+[16:07:18] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:07:21] [Server thread/INFO]: Loading properties
+[16:07:21] [Server thr[16:07:21] [Server thread/INFO]: Loading properties
+[16:07:21] [Server thread/INFO]: Defaul[16:07:22] [Server thread/INFO]: Starting Minecraft server on 10.0.0.226:2[16:0[16:07:22] [Server thread/INFO]: Preparing level "SusLand"
+.0.0.226:25565
+[16:07:22] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[16:07:22] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
+[16:07:22] [Server thread/WARN]: Perhaps a server is already running on that port?

@@ -1,149 +1,137 @@
-[15:57:37] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[15:57:37] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
-[15:57:37] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_352, running on Linux:amd64:6.0.9-arch1-1, installed at /usr/lib/jvm/java-8-openjdk/jre
-[15:57:37] [main/DEBUG] [FML/]: Java classpath at launch is technic_gt_new_horizons_2.2.0.0hf.jar
-[15:57:37] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-[15:57:37] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
-[15:57:37] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[15:57:37] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[15:57:37] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[15:57:37] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[15:57:37] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
-[15:57:37] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[15:57:37] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[15:57:37] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/akko/gtnewhorizonsbackup/.
-[15:57:37] [main/DEBUG] [FML/]: Discovering coremods
-[15:57:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:57:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:57:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:57:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:57:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:57:37] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
-[15:57:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
-[15:57:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
-[15:57:37] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
-[15:57:37] [main/DEBUG] [FML/]: Injection complete
-[15:57:37] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
-[15:57:37] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[15:57:38] [main/DEBUG] [FML/]: Read 527 binary patches
-[15:57:38] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[15:57:38] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[15:57:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:57:38] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[15:57:38] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
-[15:57:38] [main/DEBUG] [FML/]: Injection complete
-[15:57:38] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[15:57:38] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[15:57:38] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[15:57:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:57:38] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
-[15:57:38] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
-[15:57:38] [main/DEBUG] [FML/]: Validating minecraft
-[15:57:39] [main/DEBUG] [FML/]: Minecraft validated, launching...
-[15:57:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[15:57:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[15:57:39] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[15:57:43] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[15:57:43] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
-[15:57:44] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
-[15:57:44] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[15:57:44] [Server thread/DEBUG] [FML/]: File /home/akko/gtnewhorizonsbackup/config/injectedDependencies.json not found. No dependencies injected
-[15:57:44] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[15:57:44] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[15:57:44] [Server thread/DEBUG] [FML/]: Minecraft is a file at /home/akko/gtnewhorizonsbackup/technic_gt_new_horizons_2.2.0.0hf.jar, loading
-[15:57:44] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[15:57:44] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[15:57:44] [Server thread/INFO] [FML/]: Searching /home/akko/gtnewhorizonsbackup/mods for mods
-[15:57:44] [Server thread/DEBUG] [FML/]: Examining file technic_gt_new_horizons_2.2.0.0hf.jar for potential mods
-[15:57:44] [Server thread/DEBUG] [FML/]: The mod container technic_gt_new_horizons_2.2.0.0hf.jar appears to be missing an mcmod.info file
-[15:57:45] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
-[15:57:45] [Server thread/TRACE] [FML/]: Received a system property request ''
-[15:57:45] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[15:57:45] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[15:57:45] [Server thread/DEBUG] [FML/]: Found translations in technic_gt_new_horizons_2.2.0.0hf.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
-[15:57:45] [Server thread/DEBUG] [FML/]: Found translations in technic_gt_new_horizons_2.2.0.0hf.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
-[15:57:45] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[15:57:45] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
-[15:57:45] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
-[15:57:45] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
-[15:57:45] [Server thread/DEBUG] [FML/]: Mod sorting data
-[15:57:45] [Server thread/DEBUG] [FML/]: No user mods found to sort
-[15:57:45] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[15:57:45] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[15:57:45] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.018s
-[15:57:45] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[15:57:45] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[15:57:45] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[15:57:45] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
-[15:57:45] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
-[15:57:45] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
-[15:57:46] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.885s
-[15:57:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[15:57:46] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[15:57:46] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[15:57:46] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
-[15:57:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.021s
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.924s
-[15:57:46] [Server thread/DEBUG] [FML/]: Mod signature data
-[15:57:46] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
-[15:57:46] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	technic_gt_new_horizons_2.2.0.0hf.jar
-[15:57:46] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1614)	technic_gt_new_horizons_2.2.0.0hf.jar
-[15:57:46] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
-[15:57:46] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
-[15:57:46] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[15:57:46] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
-[15:57:46] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[15:57:46] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[15:57:46] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[15:57:46] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
-[15:57:46] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[15:57:46] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
-[15:57:46] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[15:57:46] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[15:57:46] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.135s
-[15:57:46] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.137s
-[15:57:46] [Server thread/INFO] [FML/]: Applying holder lookups
-[15:57:46] [Server thread/INFO] [FML/]: Holder lookups applied
-[15:57:46] [Server thread/INFO] [FML/]: Injecting itemstacks
-[15:57:46] [Server thread/INFO] [FML/]: Itemstack injection complete
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
-[15:58:09] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
-[15:58:21] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
-[15:58:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
-[15:58:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
-[15:58:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.188s
-[15:58:32] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
-[15:58:32] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
-[15:58:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
-[15:58:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
-[15:58:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
-[15:58:32] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.137s
-[15:58:32] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.327s
-[15:58:32] [Server thread/INFO] [FML/]: Applying holder lookups
-[15:58:33] [Server thread/INFO] [FML/]: Holder lookups applied
-[15:58:34] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
-[15:58:34] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
-[15:58:34] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.007s
-[15:58:34] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
-[15:58:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
-[15:58:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 1.299s
-[15:58:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
-[15:58:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
-[15:58:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.026s
-[15:58:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 1.333s
-[15:58:36] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[16:04:31] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:04:31] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[16:04:31] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_352, running on Linux:amd64:6.0.9-arch1-1, installed at /usr/lib/jvm/java-8-openjdk/jre
+[16:04:31] [main/DEBUG] [FML/]: Java classpath at launch is technic_gt_new_horizons_2.2.0.0hf.jar
+[16:04:31] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[16:04:31] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[16:04:31] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[16:04:31] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:04:31] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[16:04:31] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[16:04:31] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[16:04:31] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[16:04:31] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[16:04:31] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/akko/gtnewhorizonsbackup/.
+[16:04:31] [main/DEBUG] [FML/]: Discovering coremods
+[16:04:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:04:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:04:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:04:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:04:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:04:31] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[16:04:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[16:04:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[16:04:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:04:31] [main/DEBUG] [FML/]: Injection complete
+[16:04:31] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[16:04:31] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[16:04:32] [main/DEBUG] [FML/]: Read 527 binary patches
+[16:04:32] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:04:32] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[16:04:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:04:32] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[16:04:32] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[16:04:32] [main/DEBUG] [FML/]: Injection complete
+[16:04:32] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[16:04:32] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[16:04:32] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[16:04:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:04:33] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[16:04:33] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[16:04:33] [main/DEBUG] [FML/]: Validating minecraft
+[16:04:33] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[16:04:33] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:04:33] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:04:33] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:04:37] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[16:04:37] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[16:04:37] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[16:04:37] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[16:04:37] [Server thread/DEBUG] [FML/]: File /home/akko/gtnewhorizonsbackup/config/injectedDependencies.json not found. No dependencies injected
+[16:04:37] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[16:04:37] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:04:37] [Server thread/DEBUG] [FML/]: Minecraft is a file at /home/akko/gtnewhorizonsbackup/technic_gt_new_horizons_2.2.0.0hf.jar, loading
+[16:04:37] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[16:04:37] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:04:37] [Server thread/INFO] [FML/]: Searching /home/akko/gtnewhorizonsbackup/mods for mods
+[16:04:37] [Server thread/DEBUG] [FML/]: Examining file technic_gt_new_horizons_2.2.0.0hf.jar for potential mods
+[16:04:37] [Server thread/DEBUG] [FML/]: The mod container technic_gt_new_horizons_2.2.0.0hf.jar appears to be missing an mcmod.info file
+[16:04:38] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[16:04:38] [Server thread/TRACE] [FML/]: Received a system property request ''
+[16:04:38] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[16:04:38] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[16:04:38] [Server thread/DEBUG] [FML/]: Found translations in technic_gt_new_horizons_2.2.0.0hf.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:04:38] [Server thread/DEBUG] [FML/]: Found translations in technic_gt_new_horizons_2.2.0.0hf.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:04:38] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[16:04:38] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[16:04:38] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[16:04:38] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[16:04:38] [Server thread/DEBUG] [FML/]: Mod sorting data
+[16:04:38] [Server thread/DEBUG] [FML/]: No user mods found to sort
+[16:04:38] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[16:04:38] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[16:04:38] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[16:04:38] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[16:04:38] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:04:38] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:04:38] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[16:04:38] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[16:04:38] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.377s
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[16:04:39] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[16:04:39] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[16:04:39] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.015s
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.394s
+[16:04:39] [Server thread/DEBUG] [FML/]: Mod signature data
+[16:04:39] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[16:04:39] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	technic_gt_new_horizons_2.2.0.0hf.jar
+[16:04:39] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1614)	technic_gt_new_horizons_2.2.0.0hf.jar
+[16:04:39] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[16:04:39] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[16:04:39] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[16:04:39] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[16:04:39] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[16:04:39] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[16:04:39] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.092s
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.094s
+[16:04:39] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:04:39] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:04:39] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:04:39] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:04:39] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.004s
+[16:04:39] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:04:39] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:04:39] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:04:39] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[16:04:39] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[16:04:39] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.002s
+[16:04:39] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.

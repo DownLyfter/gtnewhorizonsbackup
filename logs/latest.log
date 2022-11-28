@@ -1,71 +1,9 @@
-[10:50:47] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[10:51:48] [Server thread/INFO]: Loading properties
-[10:51:48] [Server thread/INFO]: Default game type: SURVIVAL
-[10:51:48] [Server thread/INFO]: Generating keypair
-[10:51:48] [Server thread/INFO]: Starting Minecraft server on *:25566
-[10:54:06] [Server thread/INFO]: Preparing level "SusLand"
-[10:54:09] [Server thread/INFO]: Preparing start region for level 0
-[10:54:11] [Server thread/INFO]: Preparing spawn area: 4%
-[10:54:13] [Server thread/INFO]: Preparing spawn area: 41%
-[10:54:13] [Server thread/INFO]: Done (21.895s)! For help, type "help" or "?"
-[10:55:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2982ms behind, skipping 59 tick(s)
-[10:58:28] [User Authenticator #1/INFO]: UUID of player Mr_Flourence is 9bed92e7-9465-4e5c-88cb-e9d3dae36d3d
-[10:58:29] [Server thread/INFO]: Mr_Flourence[/127.0.0.1:50966] logged in with entity id 748 at (-708.3967949592679, 63.0, 391.69999998807907)
-[10:58:29] [Server thread/INFO]: Mr_Flourence joined the game
-[11:00:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2537ms behind, skipping 50 tick(s)
-[11:05:41] [Server thread/INFO]: Mr_Flourence lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[11:05:41] [Server thread/INFO]: Mr_Flourence left the game
-[11:05:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2323ms behind, skipping 46 tick(s)
-[11:05:46] [Server thread/INFO]: Stopping the server
-[11:05:48] [Server thread/INFO]: Stopping server
-[11:05:48] [Server thread/INFO]: Saving players
-[11:05:48] [Server thread/INFO]: Saving worlds
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Overworld
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Nether
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Miranda
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/T Ceti E
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Vega B
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Haumea
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Barnarda F
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Barnarda E
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Outer Lands
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Saturn
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Neptune
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Jupiter
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Mirror
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Pocket Plane
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Ross128b
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Ross128ba
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Bedrock
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Torment
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Spirit World
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Uranus
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/The Outer Lands
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Pluto
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Triton
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Proteus
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Oberon
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Callisto
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Titan
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Ganymede
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Ceres
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Enceladus
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Deimos
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Venus
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Phobos
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Australia
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Mercury
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/dimensionDarkWorld
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Io
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Europa
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Kuiper Belt
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Barnarda C
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/α Centauri Bb
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Asteroids
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Mars
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Moon
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Makemake
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/The Last Millenium
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Twilight Forest
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/Underdark
-[11:05:48] [Server thread/INFO]: Saving chunks for level 'SusLand'/SpectreWorld
+[14:25:55] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:26:03] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:26:04] [Server thread/INFO]: Loading properties
+[14:26:04] [Server thread/INFO]: Default game type: SURVIVAL
+[14:26:04] [Server thread/INFO]: Generating keypair
+[14:26:04] [Server thread/INFO]: Starting Minecraft server on *:25566
+[14:26:04] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[14:26:04] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
+[14:26:04] [Server thread/WARN]: Perhaps a server is already running on that port?
